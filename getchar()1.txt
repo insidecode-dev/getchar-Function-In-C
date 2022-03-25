@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+  
+  printf("Enter the character : ");  
+  int c1 = getchar();  
+  printf("%c\n", c1); // it returns input symbol itself
+  printf("%d\n", c1); // it returns ASCII(in decimal) value of input symbol in default 
+  printf("%o\n", c1); // it returns ASCII(in decimal) value of input symbol in octal                            
+  printf("%x\n", c1); // it returns ASCII(in decimal) value of input symbol in hexadecimal    
+}

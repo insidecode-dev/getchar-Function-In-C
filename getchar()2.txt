@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+  
+  printf("Enter the character : ");  
+  int c1 = getchar();   
+  printf("%d ", c1); 
+  int c2 = getchar();
+  int c3 = getchar();
+  printf("%d %d", c2, c3); 
+}
